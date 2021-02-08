@@ -19,10 +19,13 @@ addButton.addEventListener('click',(e) =>{  // J'enregistre un gestionnaire d'é
         li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
         // je récupere la valeur de l'id Name et de l'id Email avec lesquelles je créé un contenu temporaire que je vais insérer dans le li
 
-        if(userList.appendChild(li)){ 0   // J'essaie d'ajouter un élément à ma liste et si je réussis ALORS effectue ce qui est dans les accolades. Sinon ne fais rien
+        if(userList.appendChild(li)){ 0   
+        // J'essaie d'ajouter un élément à ma liste et si je réussis ALORS effectue ce qui est dans les accolades.
             nameInput.value = ' ';
             emailInput.value = ' ';
         }
+
+        // Sinon ne fais rien
 
 });
 
