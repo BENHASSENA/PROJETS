@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.boxform{
+  display: flex;
+  margin: 0 auto;
+  padding:  20px;
+  border:  1px solid black;
+  justify-content: center;
+  width: 40%;
+  height: 300px;
+  box-shadow: 5px 5px 5px 5px #cccccc;
+  margin-top:  5%;
+}
+
+h1{
+  text-align: center;
+  margin-top: 10%;
+}
+
+ form {
+    display: block;
+    position: relative;
+  }
+ form .formulaire {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+ form .formulaire .boxinput {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+  }
+ form .formulaire .boxinput input {
+    width: 200px;
+    height: 25px;
+  }
+form .formulaire .boxinput .boxmessage {
+    height: 100px;
+  }
+form .formulaire .boxinput .send {
+    width: 100px;
+  }
