@@ -4,12 +4,11 @@ body{
 
 .boxform{
   display: flex;
-  margin: 0 auto;
+  margin: 0 50px;
   padding:  20px;
   border:  1px solid black;
   justify-content: center;
-  width: 40%;
-  height: 300px;
+
   box-shadow: 5px 5px 5px 5px #cccccc;
   margin-top:  5%;
 }
@@ -37,9 +36,29 @@ h1{
     width: 200px;
     height: 25px;
   }
-form .formulaire .boxinput .boxmessage {
-    height: 100px;
-  }
-form .formulaire .boxinput .send {
-    width: 100px;
-  }
+
+.boxbutton{
+  display: flex;
+  margin: 0 auto;
+  padding:  20px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+ .buttonajout, .buttonsuppression{
+    border: 1px solid black;
+    width: 10px;
+    height:10px;
+    padding: 5px;
+ }
+
+ .buttonajout{
+   background-color: seagreen;
+ }
+
+ .buttonsuppression{
+   background-color: red;
+ }
+
+
+  
