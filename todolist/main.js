@@ -38,8 +38,6 @@ console.log(e.target.parentNode);
 
 
 
-});
-
 
 
         // if(button.contains('boxbutton')){
