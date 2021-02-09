@@ -6,6 +6,7 @@ const userList = document.querySelector('#userlist');  // la variable userList s
 const nameInput = document.querySelector('#Name');  // la variable nameInput selectionne l'id Name
 const emailInput = document.querySelector('#Email');  // la variable emailInput selectionne l'id Email
 
+
 // console.log(window);
 
 addButton.addEventListener('click',(e) =>{  // J'enregistre un gestionnaire d'évènement pour le click sur le bouton addButton
@@ -25,14 +26,43 @@ addButton.addEventListener('click',(e) =>{  // J'enregistre un gestionnaire d'é
             emailInput.value = ' ';
         }
 
-        // Sinon ne fais rien
-
 });
 
 
-suppButton.addEventListener('click',(e) =>{
-
-        li.remove;
-
-
+suppButton.addEventListener('click', (e)=>{
+        // li.remove();
+        console.log(userList.lastElementChild.remove());
 });
+
+console.log(e.target.parentNode);
+
+
+
+
+
+
+        // if(button.contains('boxbutton')){
+        //     msg.innerText = `La tâche "${button.parentNode.textContent}" a bien été supprimée !`;
+        //     msg.style.background = "greenyellow";
+        //     setTimeout(()=>{
+        //         msg.innerText = "";
+        //         msg.style.background="transparent";
+        //     }, 2500);
+        //     button.parentNode.remove();
+        //     console.log(button.parentNode.textContent);
+        // }else if(button.contains('item-check')){
+        //     if(button.parentNode.style.textDecoration==="line-through"){
+        //         button.parentNode.style.textDecoration ="none";
+        //     }else{
+        //         button.parentNode.style.textDecoration ="line-through";
+        //     }
+        //     console.log(button.parentNode.style.textDecoration)
+        // }
+
+
+
+        
+
+
+
+
