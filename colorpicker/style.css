@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(58, 58, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+h1{
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+
+#btn-random{
+    display: flex;
+    border: 1px solid black;
+    width: 150px;
+    height:30px;
+    border-radius: 4px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+button p{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    color:red;
+    font-weight: 600;
+}
+
+#boxhexa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+label{
+    color: white;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+#boxhexa input{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
