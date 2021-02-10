@@ -32,9 +32,10 @@ addButton.addEventListener('click',(e) =>{  // J'enregistre un gestionnaire d'é
 suppButton.addEventListener('click', (e)=>{
         // li.remove();
         console.log(userList.lastElementChild.remove());
+     
 });
 
-console.log(e.target.parentNode);
+
 
 
 
